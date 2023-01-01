@@ -1,0 +1,25 @@
+{
+    "name": "mahmud/wp-vue-kickstart-master",
+    "description": "Wordpress Vue Starter Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WPVUE\\Admin\\": "admin/",
+            "WPVUE\\Frontend\\": "frontend/",
+            "WPVUE\\Includes\\": "includes/",
+            "WPVUE\\Api\\": "api/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mahmudhaisan",
+            "email": "mahmudhaisan@gmail.com"
+        }
+    ],
+    "require": {}
+}
+
+
+
